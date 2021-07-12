@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   padding-bottom: 20px;
+}
+.title{ 
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+#title1{
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+    padding: 5px;
+}
+#title2{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+#subtitle{
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    width: 36%;
+    height: 60px;
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    padding-bottom: 30px;
+}
+.cards .card{
+    box-shadow: 0px 7px 15px rgba(82, 82, 165, 0.212);
+    border-radius: 7px;
+    width: 320px;
+    height: 220px;
+    background-color: white;
+}
+#card-title{
+    color: hsl(234, 12%, 34%);
+    font-size: 21px;
+}
+#card-subtitle{
+    color: hsl(229, 6%, 66%);
+    font-size: 12px;
+    width: 85%;
+    padding-top: 10px;
+    line-height: 19px;
+}
+.card .content img{
+    float: right;
+    padding-top: 30px;
+    padding-right: 28px;
+}
+.cards .card .content{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#team-builder{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    position: relative;
+    left: 519px;
+}
+#karma{
+    border-top: 4px solid hsl(34, 97%, 64%);
+    position: relative;
+    right: 501px;
+    top: 240px;
+}
+#calculator{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+#supervisor{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    position: relative;;
+    right: 164px;
+    top: 110px;
+}
+
+@media(max-width:426px){
+    .title{
+        width: 520px;
+        padding: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    #title1{
+       font-size: 35px;
+}
+#title2{
+    font-size: 34px;  
+}
+#subtitle{
+    width: 80%;  
+    margin: auto;
+    padding: 30px;
+    font-size: 18px;
+}
+#card-title{
+    font-size: 30px;
+}
+#card-subtitle{
+    font-size: 18px;
+    width: 85%;
+    padding-top: 10px;
+    line-height: 19px;
+}
+.cards .card .content{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.cards {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .cards .card{
+    box-shadow: 0px 7px 15px rgba(82, 82, 165, 0.212);
+    border-radius: 7px;
+    width: 420px;
+    height: 250px;
+    background-color: white;  
+}
+#supervisor{
+    position: absolute;
+    top: 320px;
+    left: 70px;   
+}
+#calculator{
+    position: absolute;
+    top: 615px;
+    left: 70px;   
+}
+#team-builder{
+    position: absolute;
+    top: 1207px;
+    left: 73px;
+}
+#karma{
+    position: absolute;
+    left: 70px;
+    top: 910px;
+}
+
+}
